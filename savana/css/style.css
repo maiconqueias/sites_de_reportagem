@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+body{
+    background-image: url('/img/savana2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#princ{
+   background-image: linear-gradient(#bb2c00,#D94711 );
+   color: white;
+   margin:0;
+   padding:10px;
+   border-radius: 10px;
+   box-shadow: 10px 10px 10px black;
+   margin-bottom: 1em;
+}
+#navbar{
+    background-image: linear-gradient(#F2CB05,#e97100);
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+
+
+}
+nav :hover{
+    background-color: #b82f17;
+    border-radius: 5px;
+}
+#artig{
+    background-color: rgba(0, 0, 0, 0.521);
+    margin-top: 2em;
+    border-radius: 10px;
+}
+#artig > h2{
+    background-image: linear-gradient(#F26716, #c03b0b);
+    border-radius: 10px;
+}
+#list{
+    background-color: rgba(0, 0, 0, 0.521);
+    border-radius: 10px;
+    margin: 0;
+    margin-top: 10px;
+   
+}
+#list > h3{
+    background-image: linear-gradient(#F26716, #c03b0b);
+    border-radius: 10px;
+    
+  
+}
